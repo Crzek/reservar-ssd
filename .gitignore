@@ -1,0 +1,10 @@
+node_modules/
+dist/
+db/padel.db
+db/padel.db-wal
+db/padel.db-shm
+*.log
+.env*
+.DS_Store
+*.tmp
+*.swp

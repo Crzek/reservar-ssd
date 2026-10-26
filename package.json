@@ -1,0 +1,16 @@
+{
+  "name": "padel-court-booking",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "npm run dev -w backend & npm run dev -w frontend",
+    "test": "npm test -w backend && npm test -w frontend",
+    "db:reset": "npm run db:reset -w backend"
+  }
+}
